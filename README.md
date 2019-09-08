@@ -23,7 +23,7 @@ Dependencies:
 - Medoo - I use a fork of the medoo project: https://medoo.in/ (/classes/class_Medoo.php)
 - Database: sqlLite database (/database/ )
 
-My solution worked with a Wifi. You have to find out with which Wifi stick you can set up an access point. But this is not a part of this project here on GibHub. 
+My solution worked with a Wifi. You have to find out with which Wifi stick you can set up an access point. But this is not a part of this project here on GitHub. 
 
 
 
@@ -54,5 +54,5 @@ Abhängigkeiten:
 - Medoo - ich verwende einen Fork des medoo-Projektes: https://medoo.in/  (/classes/class_Medoo.php)
 - Datenbank: sqlLite-Datenbank (/database/ )
 
-Meine Lösung funktionierte mit einem Wifi. Da muss man sich schlau machen, mit welchem Wifi-Stick man ein Accesspoint einrichten kann. Das ist aber kein Teil dieses Projektes hier auf GibHub. 
+Meine Lösung funktionierte mit einem Wifi. Da muss man sich schlau machen, mit welchem Wifi-Stick man ein Accesspoint einrichten kann. Das ist aber kein Teil dieses Projektes hier auf GitHub. 
 
