@@ -17,6 +17,8 @@ The POS system can do the following:
    - document statistics
    - Administration many bazaars to be able to compare these well. 
 
+
+
 ---
 Kassensoftware für einen Kommissionsbasar. 
 
@@ -35,6 +37,10 @@ Das Kassensystem kann folgendes:
    - Kassenstatistik
    - Belegstatistik
    - Verwaltung viele Basare, um diese gut vergleichen zukönnen. 
+
+Abhängigkeiten:
+- Medoo - ich verwende einen Fork des medoo-Projektes: https://medoo.in/
+- Datenbank: sqlLite-Datenbank 
 
 
 
