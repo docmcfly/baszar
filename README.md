@@ -49,7 +49,7 @@ Das Kassensystem kann folgendes:
    - Verwaltung viele Basare, um diese gut vergleichen zu können. 
    - Mehrsprachigkeitsunterstützung
    
-Abhängigkeiten:
+Abhängigkeiten: 
 - jQuery ( /assets/jquery.js)
 - Medoo - ich verwende einen Fork des medoo-Projektes: https://medoo.in/  (/classes/class_Medoo.php)
 - Datenbank: sqlLite-Datenbank (/database/ )
