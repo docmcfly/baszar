@@ -1,0 +1,415 @@
+html {
+  height:100%;
+
+}
+body {
+  text-align:center;
+  height:100%;
+  background-color:#f9f9f9  ;
+}
+
+* {
+  padding:0;
+  margin:0;
+  font-family:sans-serif; 
+  background-color: transparent;
+  font-size:16px;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color: transparent; /* For some Androids */
+}
+
+pre{
+	text-align:left;
+	font-family:monospace;
+}
+
+
+
+h1{
+  font-size:12px;
+  padding-top: 10px;
+}
+h2{
+  font-size:12px;
+}
+p {
+  padding-bottom: 10px;
+}
+
+span.warning {
+  color: black;
+  display:block  ;
+  float:right;
+  width: calc(50% - 1em) ;
+  padding: .5em;
+  background-color : #FFF9A9;
+  overflow:hidden;
+}
+
+ul.error_list {
+  background-color : #fdd;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+
+ul.error_list li {
+  background-color : #fdd;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+ul.error_list li:hover {
+  background-color : #fbb;
+}
+
+ul.error_list key {
+  background: none;
+  font-weight:bold;
+}
+
+ul.status {
+  background-color : #FFF9A9;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+
+ul.status li {
+  background-color : #FFF9A9;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+ul.status li:hover {
+  background-color : #FFF580;
+}
+
+ul.status key {
+  background: none;
+  font-weight:bold;
+
+}
+
+
+
+
+div.body{
+  height: 100%;
+  position: relative;
+}
+div.clear{
+  clear:both;
+  float:none;
+  width:100%!important;
+}
+
+div.center {
+  width: 950px;
+  margin: 0em auto;
+  padding-bottom:0em;
+  background-color: #C7E0FA;
+  position: relative;
+  min-height: 100%;
+  background-color: #C7E0FA;
+}
+
+em, key {
+  font-style:italic;
+}
+a {
+  color: #555;
+  /* text-decoration:none; */
+}
+aside {
+  font-style:italic;
+
+}
+.content {
+  width: auto;
+  margin: 0em auto;
+  padding:0em 1em 6em 1em;
+  background-color: #C7E0FA;
+  height:auto;
+}
+
+
+.content div {
+  text-align:left;
+}
+
+div.footer {
+  margin: 0 auto; 
+  font-size: 90%;
+  position: relative;
+  bottom : 3em ;
+  line-height:3em;
+  text-align:center;
+  width:950px;
+  color: white;
+  background-color: #003;
+}
+
+.center div.footer a  {
+  color: #C7E0FA;
+}
+
+
+ul {
+  margin:0;
+  padding:0;
+  width:100%;
+  padding:0;
+  list-style-position:inside;
+  list-style-type:none;
+  text-align:left;
+}
+
+
+div.navigation{
+  height:auto;
+  margin-bottom:1em;
+  background-color: #003;
+  color: white;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+
+ul.navigation li {
+  display:block;
+  float:left;
+  margin:0;
+  font-weight:bold;
+}
+ul.navigation li.last{
+ float:right;
+}
+
+ul.navigation li.current {
+  padding: 5px 5px 5px 5px;
+  background-color:#1B75D4 ;
+}
+ul.navigation li.current:hover {
+  background-color:#60A9F5;
+  color: white;
+}
+ul.navigation a {
+  padding: 5px 5px 5px 5px;
+  display:block;
+  border: 0;
+  outline: 0;
+  color: white;
+  text-decoration:none;
+}
+
+
+ul.navigation a:hover {
+  background-color:#60A9F5;
+}
+
+
+#subtotal, #refund {
+	font-weight:bold; 
+}
+
+input  {
+  height: 1.5em;
+  border:none;
+  padding-left:1ex;
+  padding-right:1ex;
+  width: 90%; 
+  border-radius:8px;
+
+}
+select{
+  width:90%; 
+  border:none; 
+  border-radius:8px 0 0 8px;
+}
+
+.till input,
+.till .current_till_sum_title {
+  text-align:right;
+}
+.till input.amount, 
+.till input.input.amount {
+  width: calc( 90% - 5em);
+}
+
+
+
+
+.bazaars input[type=text], .bazaars input[type=password], 
+.users input[type=text], .users input[type=password]{
+	width:10em;
+}
+
+.td label{
+    display:block; 
+    float: left;
+    width : 50%;
+}
+
+
+input[type=number] { 
+  -moz-appearance: textfield;
+  appearance: textfield;
+  margin: 0; 
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+      -webkit-appearance: none; 
+      margin: 0; 
+}
+
+.input {
+	background-color:#F2F2F2; 
+	padding-left:1ex;
+	padding-right:1ex;
+}
+
+.input.error{
+	 background-color: mistyrose; 
+}
+
+
+
+button {
+	border:none; 
+	border-radius:8px;
+	padding:3px;
+	background-color:#003;
+	outline:0 !important;
+	color:white;
+	width: calc( 100% - 2em );
+	margin: 0px 1em 0px 1em; 
+	
+}
+button:focus {
+	background-color: green; 
+	
+}
+.till .td, .till .th {
+	border-bottom: 1px solid #003; 
+}
+
+.till .td input {
+	width: 80%;
+ }
+ 
+.till .tr.space {
+	height: 3em; 
+}
+.till .tr.space .td {
+	border-top: 5px solid #003; 	
+	border-bottom: 1px solid #003; 
+}
+
+.evaluation .td.sum {
+	font-size:120%;
+	padding-top:1em;
+	border-bottom: 3px double #003; 
+}
+.evaluation .td.sum.payoff {
+	font-weight:normal;
+}
+
+.evaluation .td.sum.deduction {
+	font-weight:bold;
+}
+
+.evaluation .td, .evaluation .td_ {
+	text-align:right;
+}
+
+.evaluation .td.team {
+	text-align:left;
+	padding-left: 1em;
+}
+
+.evaluation .td.payoff {
+	font-weight:bold;
+}
+
+
+.evaluation .td.voucher_id,
+.evaluation .td_.seller,
+.evaluation .td.seller {
+	text-align:center;
+}
+
+.evaluation .td.sum {
+	font-size:120%;
+	padding-top:1em;
+	border-bottom: 3px double #003; 
+}
+.evaluation .td.voucher_id,
+.evaluation .td_.voucher_id,
+.evaluation .td_.seller,
+.evaluation .td.seller,
+.evaluation .th.till,
+.evaluation .td.till,
+.evaluation .td_.till,
+.evaluation .th.voucher_id,
+.evaluation .th.seller {
+	text-align:center;
+}
+
+.evaluation .th.team {
+	padding-bottom:1ex;
+	padding-left:1em;
+}
+.evaluation .th.amount,
+.evaluation .th.sales_volume,
+.evaluation .th.payoff,
+.evaluation .th.take,
+.evaluation .th.deduction{
+  text-align:right;
+  padding-bottom:1ex;
+ }
+
+.backup ul {
+	list-style-position: inside;
+  list-style-type: square;
+}
+.backup ul li {
+	margin-bottom: 1ex;
+}
+.light{
+	background-color: #DBEAF9;
+	padding-bottom:1ex;
+}
+
+.table {
+	width:100%;
+	display:table; 
+}
+.tr {
+	display:table-row; 
+}
+.td {
+}
+
+.td , .td_{
+	display:table-cell; 
+	padding: .1em .5em .1em .5em;
+	overflow: hidden;
+}
+
+
+.th {
+  text-align:center;
+	font-weight:bold;
+	display:table-cell;
+	overflow: hidden; 
+}
+
+.credit{
+  color:red;
+ }
+
+.strong {
+   font-weight: bold; 
+ }
+

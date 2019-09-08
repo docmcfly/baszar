@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<help>
+	<service_portal>
+		<header></header>
+	</service_portal>
+	<common_service_portal>
+		<header>Allgemeines zum Serviceportal</header>
+		<text>
+			<p>Das Serviceportal bietet die Möglichkeit zu Ihrer registrierten
+				Domain E-Mail-Postfächer (Mailboxen), E-Mail-Weiterleitungen,
+				E-Mail-Verteiler und Mailinglisten zu verwalten.
+			</p>
+		</text>
+	</common_service_portal>
+	<login>
+		<header>Anmelden</header>
+		<text>
+			<p>
+				Tragen Sie Ihre Nutzerkennung und ihr Passwort ein. Beides erhalten
+				Sie erstmals vom
+				<a href="mailto:service@cylancer.net">Administrator</a>.
+				Ihre Nutzerkennung kann entweder einer der Name des Nutzeraccounts sein 
+				oder Ihre Mailbox. 
+				Im Serviceportal ist es möglich ihr Passwort zu ändern.
+			</p>
+		</text>
+	</login>
+	<forgotten_password>
+		<header>Passwort vergessen?</header>
+		<text>
+			<p>Es ist möglich sich ein neues Passwort für das Serviceportal
+				zusenden zu lassen. Voraussetzung dafür ist, dass im Konto
+				eine gültige E-Mail-Adresse hinterlegt wurde.
+			</p>
+		</text>
+	</forgotten_password>
+	<mailboxes>
+		<header>Mailboxen</header>
+	</mailboxes>
+	<common_mailbox>
+		<header>Allgemeines zu "Mailbox"</header>
+		<text>
+			<p>
+				Ein E-Mail-Postfach mit der dazugehörigen E-Mail-Adresse
+				wird in diesem Serviceportal als
+				<em>Mailbox</em>
+				bezeichnet.
+			</p>
+			<p>
+				Für das Nutzen der
+				<em>Mailbox</em>
+				wird ein Nutzername und ein Passwort
+				benötigt. Der Nutzername ist immer die E-Mail-Adresse der
+				<em>Mailbox</em>
+				.
+			</p>
+			<p>Sie können entweder über einen E-Mail-Client, wie Mozilla Thunderbird
+				oder Microsoft Outlook auf ihre Mailbox zugreifen oder über das
+				Webmail-Interface.
+			</p>
+			<h3>E-Mail-Client / E-Mail-Programm</h3>
+			<p>Im E-Mail-Client müssen die Einstellungen für das Abrufen der Mails
+				der Mailbox und für das Versenden der Mails hinterlegt werden.
+				Mögliche Einstellungen für das Abrufen der Mailbox:
+			</p>
+			<table>
+				<tr>
+					<th>Servertyp</th>
+					<th>Servername</th>
+					<th>Port</th>
+					<th>Verbindungssicherheit</th>
+					<th>Authentifizierungsmethode</th>
+					<th>Verschlüsselt? Empfohlen?</th>
+				</tr>
+				<tr>
+					<td>IMAP</td>
+					<td>mail.cylancer.net</td>
+					<td>993</td>
+					<td>SSL/TLS</td>
+					<td>Passwort/normal (PLAIN)</td>
+					<td>Ja</td>
+				</tr>
+				<tr>
+					<td>POP3</td>
+					<td>mail.cylancer.net</td>
+					<td>995</td>
+					<td>SSL/TLS</td>
+					<td>Passwort/normal (PLAIN)</td>
+					<td>Ja</td>
+				</tr>
+				<tr>
+					<td>IMAP</td>
+					<td>mail.cylancer.net</td>
+					<td>143</td>
+					<td>kein</td>
+					<td>Passwort/normal (PLAIN)</td>
+					<td>Nein</td>
+				</tr>
+				<tr>
+					<td>POP3</td>
+					<td>mail.cylancer.net</td>
+					<td>110</td>
+					<td>keine</td>
+					<td>Passwort/normal (PLAIN)</td>
+					<td>Nein</td>
+				</tr>
+			</table>
+			<p>Mögliche Einstellungen für das Versenden von E-Mails:</p>
+			<table>
+				<tr>
+					<th>Servertyp</th>
+					<th>Servername</th>
+					<th>Port</th>
+					<th>Verbindungssicherheit</th>
+					<th>Authentifizierungsmethode</th>
+					<th>Verschlüsselt? Empfohlen?</th>
+				</tr>
+				<tr>
+					<td>SMTP</td>
+					<td>mail.cylancer.net</td>
+					<td>465</td>
+					<td>SSL/TLS</td>
+					<td>Verschlüsseltes Passwort</td>
+					<td>Ja</td>
+				</tr>
+				<tr>
+					<td>SMTP</td>
+					<td>mail.cylancer.net</td>
+					<td>587</td>
+					<td>TLS</td>
+					<td>Verschlüsseltes Passwort</td>
+					<td>Ja</td>
+				</tr>
+				<tr>
+					<td>SMTP</td>
+					<td>mail.cylancer.net</td>
+					<td>25</td>
+					<td>keine</td>
+					<td>unverschlüsseltes Passwort</td>
+					<td>NEIN - dieser Port veraltet und wird nicht mehr unterstützt.</td>
+				</tr>
+			</table>
+
+			<p>
+				<em>Hinweis:</em>
+				Viele E-Mail-Clients (bspw. Mozilla Thunderbird oder
+				Microsoft Outlook<!--&trade; -->
+				) kürzen in den Einstellungsassistenten die
+				E-Mail-Adresse auf den reinen Nutzername (alles vor dem @). Das ist
+				eine häufige Fehlerquelle beim Einrichten des E-Mail-Clients.
+			</p>
+
+			<h3>Webmail-Interface</h3>
+			<p>
+				Das Webmail-Interface erreicht man über
+				<a href="https://webmail.cylancer.net">webmail.cylancer.net</a>
+				. Der
+				"Benutzername" ist die vollständige E-Mail-Adresse ihrer Mailbox und das
+				Passwort ist das im Service-Portal hinterlegte Passwort der Mailbox.
+			</p>
+		</text>
+	</common_mailbox>
+	<display_mailboxes>
+		<header>Anzeige der Mailboxen</header>
+		<text>
+			<p>
+				In dieser Ansicht werden alle Mailboxen des Nutzers angezeigt.
+				Sie werden zu den verfügbaren Domains gruppiert und alphabetisch
+				sortiert. Über die Links
+				<a href="#edit_mailbox">Bearbeiten</a>
+				und
+				<a href="#delete_mailbox">Löschen</a>
+				können die Mailboxen
+				bearbeitet bzw. gelöscht werden.
+			</p>
+			<p>
+				Über die Felder hinter dem Domainnamen kann man eine neue Mailbox
+				anlegen. Dazu gibt man den Namen der neuen Mailbox an, wählt eine
+				Domain und betätigt den Button:
+				<a href="#create_mailbox">Mailbox
+					anlegen
+				</a>
+				.
+			</p>
+			<p>Hinter jeder bestehenden Mailbox existiert eine
+				Speicherverbrauchsanzeige der Mailbox. Wenn man den Mauszeiger auf der
+				Anzeige verharren lässt, wird eingeblendet, wie viel Speicher genau
+				genutzt wird und wie viel insgesamt der Mailbox zugeordnet ist.
+			</p>
+			<p>
+				Am Ende der Tabelle wird der aktuelle Platzverbrauch aller
+				Mailboxen dargestellt. In der Zeile "Genutzer Speicherraum" wird
+				angezeigt, wie viel Platz der Speicherraums bereits von Mails der
+				Mailboxen belegt wird. Die zweite Zeile "Verfügbarer Speicherraum
+				für Mailboxen" dokumentiert, welcher
+				möglicher Platz der einzelnen
+				Mailboxen bereits zugewiesen wurde. Wenn die Größe der Mailboxen
+				(über
+				<a href="#edit_mailbox">Bearbeiten</a>
+				) reduziert, so entsteht
+				wieder freier "Verfügbarer Speicherraum für alle Mailboxen".)
+			</p>
+		</text>
+	</display_mailboxes>
+	<create_mailbox>
+		<header>Anlegen einer Mailbox</header>
+		<text>
+			<p>Um das Anlegen einer Mailbox zu vervollständigen, wird noch ein
+				Passwort für die Mailbox benötigt. Dazu gibt man in das Feld
+				"Neues Passwort" und in das Feld "Wiederholung" das Mailbox-Passwort ein.
+				Mit dem Button "Mailbox anlegen" werden die Angaben geprüft und
+				anschließend das Postfach angelegt.
+			</p>
+			<p>Die Mailbox ist sofort nutzbar.</p>
+			<p>
+				Mit dem Regler "Speicherplatz der Mailbox" kann der Mailbox individuell
+				Speicherplatz zugewiesen werden. Eine Mailbox ist immer mindestens 32MB
+				groß. Die maximale Größe wird über die Nutzerrechte bestimmt.
+				Im "
+				<a href="#edit_account">Konto</a>
+				" wird die maximale Mailboxgröße
+				angezeigt.
+			</p>
+		</text>
+	</create_mailbox>
+	<edit_mailbox>
+		<header>Bearbeiten der Mailbox / Mailbox-Eintstellungen</header>
+		<text>
+			<p>
+				Abhängig von der Art wie der Nutzer sich eingeloggt, werden
+				unterschiedliche Optionen angeboten. Hat der Nutzer sich mit seinem
+				Nutzernamen angemeldet stehen ihm folgende Einstllmöglichkeiten zur
+				Verfügung:
+				<ul>
+					<li>Ändern/Zurücksetzten des Passworts</li>
+					<li>Einstellen der Mailboxgröße</li>
+					<li>Automatisches Antworten einrichten / abschalten</li>
+				</ul>
+				Hat der Nutzer nur die E-Mail-Adresse zum Einloggen verwendet, so 
+				ist das Einstellen der Mailboxgröße nicht möglich.  
+			</p>
+			<h3>Ändern/Zurücksetzten des Passworts</h3>
+			<p>Hier kann man das Passwort der Mailbox ändern bzw.
+				zurücksetzen. Dazu müssen die folgenden Felder gefüllt werden:
+				"Aktuelles Passwort", "Neues Passwort" und "Wiederholung". Im Feld
+				"Aktuelles Passwort" kann man entweder das alte Passwort der Mailbox
+				angeben oder, falls dieses vergessen wurde, das
+				Passwort, welches
+				man beim Einloggen des Serviceportals verwendet hat. Dieses dient
+				bspw. dazu das Passwort zurückzusetzen, wenn der Mailbox-Verwender
+				sein Passwort vergessen hat. In die Felder "Neues Passwort" und
+				"Wiederholung" trägt man das neue Passwort ein. Das Feld "Wiederholung"
+				dient zur
+				Sicherheit, dass sich kein Tippfehler eingeschlichen hat.
+			</p>
+			<p>Nach dem Klick auf den Button "Speichern" ist das neue Passwort
+				sofort aktiv und kann im E-Mail-Programm oder im Webmail-Interface
+				genutzt werden.
+			</p>
+			<h3>Automatisches Antworten einrichten / abschalten</h3>
+			<p>Sie können einen automatischen Antwort-Service einrichten. Ist dieser 
+			aktiv, so bekommt jeder, der E-Mail an die aktuelle E-Mail-Adresse sendet 
+			eine automatische Antwort-E-Mail. Die Mail an den Nutzer wird weiterhin zu gestellt. 
+			Um Kasskaden von automatischen Antworten zu verhindern, wird jedem Sender 
+			nur einmal geantwortet. Nur wenn der Nutzer den automatischen Antwort-Service 
+			deaktivert, speichert und wieder aktiviert, wird einem Absender wieder eine 
+			Antwortmail zugesandt. Ein einfaches Ändern des Zeitraums, des Betreffs 
+			oder des Nachrichtentextes reicht hingegen nicht aus.    
+			</p>
+			<p>Um den automatischen Antwortservice zu aktivieren, setzt man einen Haken 
+			hinter "Automatisches Antworten aktiv". Damit werden die darunterliegenden 
+			Eingabefelder freigeschaltet. Über die Felder "Von" und "Bis" muss der Zeitraum
+			festgelegt werden, in dem der Antwortservice arbeiten soll. In "Betreff" 
+			und "Nachricht" wird der Inhalt der Antwort festgelegt. </p>
+			<h3>Einstellen der Mailboxgröße</h3>
+			<p>
+				Mit dem Regler "Speicherplatz der Mailbox" kann der Mailbox individuell
+				Speicherplatz zugewiesen werden. Eine Mailbox ist immer mindestens 32MB
+				groß. Die maximale Größe wird über die Nutzerrechte bestimmt.
+				Im "
+				<a href="#edit_account">Konto</a>
+				" wird die maximale Mailboxgröße
+				angezeigt. Verkleinert man die Größe einer belegten Mailbox ist, sorgt das
+				Service-Portal dafür, dann immer 10% freier Platz noch zur Verfügung stehen.
+			</p>
+			<p>
+				Hinter "Speicherverbrauch der Mailbox" wird angezeigt, wie
+				viel Platz in der Mailbox bereits genutzt wird.
+			</p>
+		</text>
+	</edit_mailbox>
+	<delete_mailbox>
+		<header>Löschen der Mailbox</header>
+		<text>
+			<p>
+				Hierüber ist es möglich eine Mailbox zu löschen. Dazu muss man
+				analog zu
+				<a href="#edit_mailbox">Bearbeiten der Mailbox</a>
+				im
+				Feld "Aktuelles Passwort" entweder das Passwort der Mailbox oder
+				das Passwort für das Service-Portal eingeben, um das Löschen der
+				Mailbox zu bestätigen.
+			</p>
+			<p>
+				<em>Hinweis:</em>
+				Beim Löschen einer Mailbox werden auch alle
+				abhängigen Weiterleitungen oder E-Mail-Verteiler-Einträge gelöscht,
+				wenn diese dem Service-Portal bekannt sind. In selten Fällen kann
+				es passieren, dass Weiterleitungen scheinbar einfach verschwinden:
+				Bsp: Nutzer A mit der Domain X hat eine Mailbox a@X.
+				Nutzer B mit
+				der Domain Y hat eine Weiterleitung w@Y nach a@X. Löscht nun der
+				Nutzer A seine Mailbox, wird auch die Weiterleitung von B entfernt.
+			</p>
+		</text>
+	</delete_mailbox>
+	<change_password_mailbox>
+		<header>Passwort der Mailbox ändern</header>
+		<text>
+			<p>Hier kann man das Passwort der Mailbox ändern.
+				Dazu müssen die folgenden Felder gefüllt werden:
+				"Aktuelles Passwort", "Neues Passwort" und "Wiederholung". Im Feld
+				"Aktuelles Passwort" muss das aktuelle Passwort der Mailbox
+				eingeben werden. In die Felder "Neues Passwort" und "Wiederholung"
+				trägt man
+				das neue Passwort ein. Das Feld "Wiederholung" dient zur
+				Sicherheit, dass sich kein Tippfehler eingeschlichen hat.
+			</p>
+			<p>Nach dem Klick auf den Button "Speichern" ist das neue Passwort
+				sofort aktiv und kann im E-Mail-Programm oder im Webmail-Interface
+				genutzt werden.
+			</p>
+		</text>
+	</change_password_mailbox>
+	<forwards>
+		<header>Weiterleitungen</header>
+	</forwards>
+	<common_forward>
+		<header>Allgemeines zur Weiterleitung</header>
+		<text>
+			<p>Weiterleitungen bieten die Möglichkeit E-Mails an eine
+				andere E-Mail-Adresse weiterzuleiten. Für diese Funktion
+				existieren Einschränkungen:
+			</p>
+			<ul>
+				<li>Wenn die Domain im Serviceportal registriert ist, ist es nur
+					möglich auf existierende Mailboxen, Weiterleitungen, Mailinglisten
+					oder E-Mail-Verteiler weiterzuleiten.
+				</li>
+				<li>Weiterleitungen können keine E-Mail-Adresse von Mailboxen,
+					Mailinglisten oder E-Mail-Verteilern bekommen.
+				</li>
+				<li>
+					Die Weiterleitungsadresse kann nur einmal verwendet werden.
+					Für das Weiterleiten von Mails an mehrere E-Mail-Adressen existieren
+					<a href="#common_distributor">E-Mail-Verteiler</a>
+					.
+				</li>
+			</ul>
+			<p></p>
+		</text>
+	</common_forward>
+	<create_forward>
+		<header>Weiterleitung anlegen</header>
+		<text>
+			<p>Diese Sicht ist nur dann sichtbar, wenn die Weiterleitung nicht
+				ohne Korrekturen anzulegen ist. Beachten Sie die Fehlermeldungen
+				und korrigieren Sie Ihre Angaben dementsprechend.
+			</p>
+		</text>
+	</create_forward>
+	<display_forwards>
+		<header>Anzeige der Weiterleitungen</header>
+		<text>
+			<p>
+				In dieser Ansicht werden alle Weiterleitungen des Nutzers angezeigt.
+				Sie werden zu den verfügbaren Domains gruppiert und alphabetisch
+				sortiert. Über den Link
+				<a href="#delete_forward">Löschen</a>
+				können Weiterleitungen gelöscht werden.
+			</p>
+			<p>
+				In der ersten Zeile unter der Domain kann man eine neue
+				Weiterleitung anlegen. Dazu gibt man den Namen der neuen Weiterleitung
+				an, wählt eine Domain, gibt die Zieladresse an und betätigt den
+				Button:
+				<a href="#create_forward">Weiterleitung anlegen</a>
+				.
+			</p>
+		</text>
+	</display_forwards>
+	<delete_forward>
+		<header>Löschen der Weiterleitung</header>
+		<text>
+			<p>In der Liste der Weiterleitungen existiert hinter jeder
+				Weiterleitung der Link "Löschen". Mit diesem Link wird die
+				Weiterleitung gelöscht. Zu Beachten ist, dass auch alle abhängigen
+				Weiterleitungen und E-Mail-Verteileinträge gelöscht werden, welche
+				nach dem Löschen ins "Nichts" zeigen würden.
+			</p>
+			<p>
+				<em>Beispiel:</em>
+				In einem Verteiler existiert ein Eintrag
+				der Weiterleitung a@x auf die Mailbox b@y. Wird nun die a@x entfernt,
+				wird auch der Eintrag im E-Mail-Verteiler entfernt. Dieser Mechanismus
+				geschieht auch Kontenübergreifend. Sprich wenn Nutzer A eine Weiterleitung
+				auf eine Adresse von B hat und B diese
+				Adresse entfernt, so wird auch
+				die Weiterleitung beim Nutzer A entfernt, denn diese Weiterleitung wäre
+				damit ungültig. (Dieser Effekt tritt nur bei Domains und Nutzer auf,
+				welche auf dem selben Server verwaltet werden.)
+			</p>
+		</text>
+	</delete_forward>
+	<distributors>
+		<header>E-Mail-Verteiler</header>
+	</distributors>
+	<common_distributor>
+		<header>Allgemeines zu E-Mail-Verteiler</header>
+		<text>
+			<p>
+				Die E-Mail-Verteiler sind
+				<strong>keine</strong>
+				geschlossenen
+				Mailinglisten. Das bedeutet, jeder der die Adresse des E-Mail-Verteilers
+				kennt, kann an diese Verteiler-E-Mail-Addresse schreiben. Wird also
+				Spam an diesen Verteiler geschrieben, erhalten alle Mitglieder des
+				E-Mail-Verteilers eine Kopie dieses Spams. Ist eine geschlossene
+				Liste
+				gewünscht, wenden Sie sich an den
+				<a href="mailto:service@cylancer.net">Administrator</a>
+				.
+				Dieser kann ihnen eine Mailingliste individuell konfiguriert
+				bereitstellen.
+			</p>
+		</text>
+	</common_distributor>
+	<display_distributors>
+		<header>Anzeigen der E-Mail-Verteiler</header>
+		<text>
+			<p>
+				In dieser Ansicht werden alle E-Mail-Verteiler des Nutzers
+				angezeigt. Sie werden zu den verfügbaren Domains gruppiert und
+				alphabetisch sortiert. Über den Link
+				<a href="#delete_member">Löschen</a>
+				können Mitglieder des E-Mail-Verteilers
+				gelöscht werden.
+			</p>
+			<p>
+				Über die Felder hinter dem Domainnamen kann man eine neue Mailbox
+				anlegen. Dazu gibt man den Namen der neuen Mailbox an, wählt eine
+				Domain und betätigt den Button:
+				<a href="#create_mailbox">Mailbox
+					anlegen
+				</a>
+				.
+			</p>
+		</text>
+	</display_distributors>
+	<create_distributor>
+		<header>Anlegen eines E-Mail-Verteilers</header>
+		<text>
+			<p>Diese Sicht ist nur dann sichtbar, wenn der E-Mail-Verteiler nicht
+				ohne Korrekturen anzulegen ist oder das Mitglied sich nicht problemlos
+				zum Verteiler hinzufügen lässt. Beachten Sie die Fehlermeldungen
+				und korrigieren Sie Ihre Angaben dementsprechend.
+			</p>
+		</text>
+	</create_distributor>
+	<delete_member>
+		<header>Löschen eines Mitglieds aus dem E-Mail-Verteiler</header>
+		<text>
+			<p>In der Liste der E-Mail-Verteiler existiert hinter jedem Mitglied
+				des Verteilers der Link "Löschen".
+				Mit diesem Link wird das Mitglied aus dem Verteiler entfernt.
+			</p>
+			<p>
+				<em>Hinweis:</em>
+				Wird das letzte Mitglied des Verteilers entfernt,
+				so wird auch der Verteiler gelöscht und alle anderen davon abhängigen
+				Weiterleitungen und Verteiler. (siehe
+				<a href="#delete_forward">Löschen
+					von Weiterleitungen
+				</a>
+				)
+			</p>
+		</text>
+	</delete_member>
+	<mailman_lists>
+		<header>Mailinglisten</header>
+	</mailman_lists>
+	<common_mailman_lists>
+		<header>Allgemeines zu Mailinglisten</header>
+		<text>
+			<p>
+				Unter Mailinglisten werden eigenständig konfigurierbare E-Mail-Verteiler
+				verstanden. Hier werden Mailinglisten von der Software
+				<a href="www.list.org">Mailman,
+					the GNU Mailing List Manager
+				</a>
+				bereitgestellt. Um eine Mailman-Mailingliste
+				nutzen zu können, wenden Sie sich an den
+				<a href="mailto:service@cylancer.net">Administrator</a>
+				.
+				Alle Mailinglisten laufen in der Grundkonfiguration unter der Domain
+				"listen.cylancer.net". In der Konfiguration der Mailman-Liste ist es möglich einen
+				alternativen Domainnamen auszuwählen (Parametername
+				<key>host_name</key>
+				)
+				Der Domainname muss einer dem Nutzer zugeordneten Domain entsprechen oder
+				einer deren
+				<a href="http://de.wikipedia.org/wiki/Domain_(Internet)">Subdomains</a>
+				.
+				Nach spätestens 24 Stunden wird eine gültige Änderung in der
+				Mailinglistenkonfiguration automatisch aktiv. Es ist aber auch möglich
+				für seine Mailinglisten den Aktualisierungsprozess manuell auszulösen
+				(siehe
+				<a href="#display_mailman_lists">Anzeige von Mailinglisten</a>
+				).
+			</p>
+		</text>
+	</common_mailman_lists>
+	<display_mailman_lists>
+		<header>Anzeige von Mailinglisten</header>
+		<text>
+			<p>
+				In dieser Ansicht werden alle Mailinglisten des Nutzers
+				angezeigt. Sie werden alphabetisch sortiert angezeigt. Am Ende der Liste
+				steht der Link "Mailinglisten-Host-Weiterleitungen aktualisieren".
+				Wurde in der Mailinglistenkonfiguration der Parameter
+				<key>host_name</key>
+				modifiziert, so kann mittels dieses Links die Änderung sofort aktiviert
+				werden. Die Mailingliste ist im Anschluss sofort unter der im
+				<key>host_name</key>
+				angegebenen Domain erreichbar.
+			</p>
+		</text>
+	</display_mailman_lists>
+	<account>
+		<header>Konto</header>
+	</account>
+	<edit_account>
+		<header>Bearbeiten des Kontos</header>
+		<text>
+			<p>Hier kann man das Service-Portal-Passwort ändern.
+				Dazu müssen die folgenden Felder ausgefüllt werden:
+				"Aktuelles Passwort", "Neues Passwort" und "Wiederholung". Im Feld
+				"Aktuelles Passwort" gibt man sein gerade aktuelles Passwort für
+				das Serviceportal an. In die Felder "Neues Passwort" und
+				"Wiederholung"
+				trägt man das neue Passwort ein. Das Feld "Wiederholung" dient zur
+				Sicherheit, damit sich kein Tippfehler eingeschlichen hat.
+			</p>
+			<p>
+				In dem Feld "E-Mailadresse" kann man seine gültige E-Mailadresse
+				eingeben. Dieses dient ausschließlich dem Zweck, wenn
+				man das Passwort vergessen hat. An dies E-Mail-Adresse kann man sich
+				ein neues Passwort zusenden lassen (siehe
+				<a href="#forgotten_password">Passwort vergessen</a>
+				).
+			</p>
+		</text>
+	</edit_account>
+
+</help>

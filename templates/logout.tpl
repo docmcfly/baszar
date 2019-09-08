@@ -1,0 +1,1 @@
+<!-- <form action='index.php' method="post" >  <input type="hidden" name="form_key" value="<?=d('_form_key')?>"></div>  <input type="hidden" name="action" value="logout">  <div><label for="submit"><?=t('logout')?></label>  <input type="submit" name="submit" value="<?=t('logout')?>"></div> </form> -->
